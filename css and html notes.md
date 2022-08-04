@@ -42,7 +42,7 @@ The browser in default align according to text. You can add `vertical-align: top
 
 ## Lecture 5 Text Style
 
-Remember you can create text elememts using `<p>text</p>`. You can also add `class` attribute to it. Then, inside `<style>`, write `.class_name{}` to modify the style of the text. Inside, write `fone-family: Arial;` to change the font, `font-size: 30px;` to change font size, `font-weight: bold;` to make font bold, `color: red` to change text color, `font-style: italic;` to make it italic, `text-align: center` to make text center, `width: 400px;` to force the text stretch multiple lines, `line-height: 20px;` to change distance between adjacent lines.
+Remember you can create text elememts using `<p>text</p>`. You can also add `class` attribute to it. Then, inside `<style>`, write `.class_name{}` to modify the style of the text. Inside, write `font-family: Arial;` to change the font, `font-size: 30px;` to change font size, `font-weight: bold;` to make font bold, `color: red` to change text color, `font-style: italic;` to make it italic, `text-align: center` to make text center, `width: 400px;` to force the text stretch multiple lines, `line-height: 20px;` to change distance between adjacent lines.
 
 You can also create html entity which is not on your keyboard using special syntax. Note that < and > is html entity.
 

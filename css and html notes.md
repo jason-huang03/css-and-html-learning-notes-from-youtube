@@ -118,3 +118,11 @@ To create a css grid,
 If the number of values is greater than the number of `<div>` inside, those left are invisible. If more, more rows will be created automatically. You can replace the `px` with `fr`, causing the corresponding grid to take up the whole free space left of the line. If there are more than one `fr`, the grid with `fr` will take up space proportional to the number before `fr`.
 
 You can add `padding-bottom: 100px` to the style of `body` to create extra space at the bottom of the webpage. We can write `column-gap: 20px;` to create space between columns, `row-gap: 20px` to create spcae between rows.
+
+
+
+## Lecture 12 Flexbox
+
+We, as grid, use `<div>` as containers. We set the display property to flex. If you type `flex-direction: row;`, the element inside will behave more like inline elements, taking just enough space(unless you have specified the width). For element inside the flexbox, you can write `flex:1`, which has similiar effect as `1fr` for grid. The big difference is that element take their width with them in the flexbox, so grid tend to be rigid while flexbox is flexible.
+
+The `justify-content` and `align-items` property describe how the elements inside the flexbox are placed. For example, if you write `justify-content: space-between;`, the elements inside the flexbox will be spread evenly across the horizontal space. If you add property `max-width: 300px;`, the element will never grow more than 300px wide.

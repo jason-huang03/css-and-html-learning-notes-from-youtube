@@ -123,6 +123,16 @@ You can add `padding-bottom: 100px` to the style of `body` to create extra space
 
 ## Lecture 12 Flexbox
 
-We, as grid, use `<div>` as containers. We set the display property to flex. If you type `flex-direction: row;`, the element inside will behave more like inline elements, taking just enough space(unless you have specified the width). For element inside the flexbox, you can write `flex:1`, which has similiar effect as `1fr` for grid. The big difference is that element take their width with them in the flexbox, so grid tend to be rigid while flexbox is flexible.
+We, as grid, use `<div>` as containers. We set the display property to flex. If you type `flex-direction: row;`, the element inside will behave more like inline elements, taking just enough space, stretching to contain its elements(unless you have specified the width). For element inside the flexbox, you can write `flex:1`, which has similiar effect as `1fr` for grid. The big difference is that element take their width with them in the flexbox, so grid tend to be rigid while flexbox is flexible.
 
-The `justify-content` and `align-items` property describe how the elements inside the flexbox are placed. For example, if you write `justify-content: space-between;`, the elements inside the flexbox will be spread evenly across the horizontal space. If you add property `max-width: 300px;`, the element will never grow more than 300px wide.
+The `justify-content` and `align-items` property describe how the elements inside the flexbox are placed. For example, if you write `justify-content: space-between;`, the elements inside the flexbox will be spread evenly across the horizontal space. If you write `align-items: center;`, the elements inside the flexbox will be centered vertically. If you add property `max-width: 300px;`, the element will never grow more than 300px wide.
+
+
+
+## Lecture 13 Nested Flexbox
+
+To make a line of elements align vertically, you can actually put in inside a flexbox and write `align-items: center;`.
+
+To target the placeholder in a search bar, you should write the css code `.class-name::placeholder{}`.  
+
+If you give the property `flex-shrink: 0;` to prevent the flexbox from shrinking when you resize your webpage.

@@ -136,3 +136,11 @@ To make a line of elements align vertically, you can actually put in inside a fl
 To target the placeholder in a search bar, you should write the css code `.class-name::placeholder{}`.  
 
 If you give the property `flex-shrink: 0;` to prevent the flexbox from shrinking when you resize your webpage.
+
+
+
+## Lecture 14 CSS Position
+
+The css position is dertermined by the position property. The default setting is `position: static;`.
+
+If you write `position: fixed;`,the element will stick to the position when you scroll, and it doesn't take the original page space, as if floating on the page. The top property decides the distance from the top of the webpage, similiar for bottom, left, right. If you specify both left and right, the element will stretch to fit. If you set `top: 0;`, you can write `padding-top: 20px;` to the style of `<body>`. It's similiar for elements attached to the left of the page.
